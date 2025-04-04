@@ -1,28 +1,47 @@
 <!DOCTYPE html>
+<!-- This declares the document type as HTML5 -->
 <html lang="en">
+    <!-- The head contains meta information about the document -->
     <head>
+        <!-- Character encoding declaration - ensures proper text rendering -->
         <meta charset="UTF-8">
+        
+        <!-- Viewport settings for responsive design on mobile devices -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Description for search engines and social media sharing -->
         <meta name="description" content="Professional portfolio of Franklin Akamere, Frontend Developer specializing in React, JavaScript, and responsive web design.">
+        
+        <!-- The title that appears in browser tabs and search results -->
         <title>Franklin Akamere | Frontend Developer</title>
         
+        <!-- Loading Font Awesome icons from CDN -->
         <link rel="stylesheet" 
               href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
               integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
               crossorigin="anonymous" 
               referrerpolicy="no-referrer" />
         
+        <!-- Preloading CSS for better performance -->
         <link rel="preload" href="/public/css/style.css" as="style">
         
+        <!-- Main stylesheet link -->
         <link rel="stylesheet" href="/public/css/style.css">       
-
     </head>
+
 <body>
+    <!-- Website header with navigation -->
     <header id="navbar">
+        <!-- Logo/name in navigation -->
         <div class="logo">devFranklin</div>
+        
+        <!-- Mobile hamburger menu button (only visible on small screens) -->
         <button id="hamburger" class="hamburger" aria-label="Menu" aria-expanded="false">
+            <!-- Font Awesome bars icon -->
             <i class="fas fa-bars"></i>
         </button>
+        
+        <!-- Main navigation menu -->
         <nav aria-label="Main navigation">
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -33,19 +52,28 @@
         </nav>
     </header>    
 
+    <!-- Main content of the webpage -->
     <main>
+        <!-- Hero section - first visible content -->
         <section id="home" class="hero">
             <div class="hero-content">
+                <!-- Profile picture with accessibility attributes -->
                 <img src="/public/images/profile.jpg" alt="Franklin Akamere" class="profile-img" width="200" height="200" loading="eager">
+                
+                <!-- Main heading and tagline -->
                 <h1>Odinaka Franklin Akamere</h1>
                 <p>FrontEnd Developer | Tech Enthusiast | Problem Solver</p>
+                
+                <!-- Social media links section -->
                 <div class="social-links">
+                    <!-- LinkedIn link with security attributes -->
                     <a href="https://www.linkedin.com/in/franklin-akamere" 
                        target="_blank" 
                        rel="noopener noreferrer" 
                        aria-label="Connect on LinkedIn">
                        <i class="fab fa-linkedin-in"></i>
                     </a>                    
+                    <!-- GitHub link with security attributes -->
                     <a href="https://github.com/franklin-dex" 
                        target="_blank" 
                        rel="noopener noreferrer" 
@@ -56,6 +84,7 @@
             </div>
         </section>
 
+        <!-- About Me section -->
         <section id="about" class="section">
             <div class="container">
                 <h2>About Me</h2>
@@ -89,15 +118,19 @@
                         the forefront of the software engineering world. His dedication is to tackle software challenges head-on 
                         and deliver exceptional results for his clients and end-users.
                     </p>
+                    <!-- Download CV button -->
                     <a href="/public/docs/my_cv.pdf" download class="btn">Download CV</a>
                 </div>
             </div>
         </section>
 
+        <!-- Skills section -->
         <section id="skills" class="section">
             <div class="container">
                 <h2>Skills</h2>
+                <!-- Skills grid layout -->
                 <div class="skills-grid card-grid">
+                    <!-- Individual skill cards with icons -->
                     <div class="skill-card">
                         <i class="fab fa-html5"></i>
                         <h3>HTML5</h3>
@@ -126,10 +159,13 @@
             </div>
         </section>
 
+        <!-- Projects section -->
         <section id="projects" class="section">
             <div class="container">
                 <h2>Projects</h2>
+                <!-- Projects grid layout -->
                 <div class="projects-grid card-grid">
+                    <!-- First project card -->
                     <div class="project-card">
                         <div class="project-header">
                             <h3>HBNB THE CONSOLE</h3>
@@ -156,6 +192,8 @@
                             <a href="https://github.com/Marvydee/AirBnB_clone" class="btn btn-outline">GitHub Link</a>
                         </div>
                     </div>
+                    
+                    <!-- Second project card -->
                     <div class="project-card">
                         <div class="project-header">
                             <h3>ShedKGs</h3>
@@ -180,6 +218,8 @@
                             <a href="https://youtu.be/ZtZ1_mx4rtk" class="btn btn-outline">Team Presentation</a>
                         </div>
                     </div>
+                    
+                    <!-- Third project card -->
                     <div class="project-card">
                         <div class="project-header">
                             <h3>Service Guru</h3>
@@ -212,10 +252,14 @@
             </div>
         </section>
 
+        <!-- Contact section with form -->
         <section id="contact" class="section">
             <div class="container">
                 <h2>Contact Me</h2>
-                <form id="contact-form" class="contact-form">
+                <!-- Contact form with required fields -->
+                <form id="contact-form" class="contact-form"
+                action="https://formspree.io/f/xyzenowb"
+                method="POST">
                     <input type="text" name="name" placeholder="Your Name" required>
                     <input type="email" name="email" placeholder="Your Email" required>
                     <textarea name="message" placeholder="Your Message" required></textarea>
@@ -225,10 +269,13 @@
         </section>
     </main>
 
+    <!-- Footer section -->
     <footer>
+        <!-- Copyright notice with dynamic year (handled by JavaScript) -->
         <p>&copy; <span id="year"></span> Odinaka Franklin Akamere. All Rights Reserved.</p>
     </footer>
 
+    <!-- JavaScript file loaded with defer attribute (executes after HTML is parsed) -->
     <script src="/public/js/script.js" defer></script>
 </body>
 </html>
