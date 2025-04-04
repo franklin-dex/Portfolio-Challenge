@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Professional portfolio of Franklin Akamere, Frontend Developer specializing in React, JavaScript, and responsive web design.">
+        <title>Franklin Akamere | Frontend Developer</title>
+        
+        <link rel="stylesheet" 
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+              integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+              crossorigin="anonymous" 
+              referrerpolicy="no-referrer" />
+        
+        <link rel="preload" href="/public/css/style.css" as="style">
+        
+        <link rel="stylesheet" href="/public/css/style.css">       
+
+    </head>
+<body>
+    <header id="navbar">
+        <div class="logo">devFranklin</div>
+        <button id="hamburger" class="hamburger" aria-label="Menu" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+        </button>
+        <nav aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="/public/images/profile.jpg" alt="Franklin Akamere" class="profile-img" width="200" height="200" loading="eager">
+                <h1>Odinaka Franklin Akamere</h1>
+                <p>FrontEnd Developer | Tech Enthusiast | Problem Solver</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/franklin-akamere" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       aria-label="Connect on LinkedIn">
+                       <i class="fab fa-linkedin-in"></i>
+                    </a>                    
+                    <a href="https://github.com/franklin-dex" 
+                       target="_blank" 
+                       rel="noopener noreferrer" 
+                       aria-label="View GitHub profile">
+                       <i class="fab fa-github"></i>
+                    </a>                    
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <div class="about-content">
+                    <p>
+                        Franklin Akamere is a passionate and aspiring frontend software engineer on a journey to create 
+                        innovative solutions. He loves solving problems and pays attention to every detail to ensure his 
+                        work is top-notch. Currently, Franklin is thrilled to be enrolled in PLP Academy where he would be 
+                        further equipped on industry standard technologies so he can build software solutions that positively 
+                        impact people's lives.
+                    </p>
+                    <p>
+                        At the beginning of his career, Franklin is proud to have already led the development of his very own 
+                        e-commerce website. It was an exciting project that allowed him to apply his coding skills and design a 
+                        platform that showcases his passion for selling unique products. This experience has been invaluable, 
+                        teaching him about web development and user experience.
+                    </p>
+                    <p>
+                        Additionally, Franklin has taken part in collaborative coding challenges on freeCodeCamp and other 
+                        platforms where he developed MVPs, creative web applications and other projects. It was a great way for 
+                        him to learn, share knowledge, and improve his skills.
+                    </p>
+                    <p>
+                        Franklin is an avid learner, always excited to explore the latest technologies. He can't wait to 
+                        integrate these cutting-edge tools into his future projects, so he can create even more awesome and 
+                        impactful solutions for the world. His ultimate goal is to be part of technology advancement and make a 
+                        positive difference in people's lives through software development.
+                    </p>
+                    <p>
+                        As he continues this exciting journey, Franklin is committed to sharpening his skills and staying at 
+                        the forefront of the software engineering world. His dedication is to tackle software challenges head-on 
+                        and deliver exceptional results for his clients and end-users.
+                    </p>
+                    <a href="/public/docs/my_cv.pdf" download class="btn">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid card-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-node-js"></i>
+                        <h3>Node.js</h3>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>SQL</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid card-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>HBNB THE CONSOLE</h3>
+                            <span class="project-role">FrontEnd Developer</span>
+                        </div>
+                        
+                        <div class="project-content">
+                            <p>
+                                This project is the initial stage of an AirBnB clone, focusing on the backend interface. 
+                                It features a command-line interface (CLI) tool that allows users to manage accommodations, 
+                                users, bookings, and more. The system uses JSON serialization/deserialization to enable 
+                                persistent data storage between sessions.
+                            </p>
+                            <ul class="project-features">
+                                <li>Command interpreter for managing data objects</li>
+                                <li>CRUD operations (Create, Read, Update, Delete)</li>
+                                <li>JSON-based storage system for persistence</li>
+                                <li>Object-oriented Python implementation</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://s3.amazonaws.com/intranet-projects-files/concepts/74/hbnb_step3.png" class="btn btn-outline">Team Deck</a>
+                            <a href="https://github.com/Marvydee/AirBnB_clone" class="btn btn-outline">GitHub Link</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>ShedKGs</h3>
+                            <span class="project-role">Project Manager</span>
+                        </div>
+                        
+                        <div class="project-content">
+                            <p>
+                                ShedKGs is a comprehensive mobile health app designed to tackle overweight and obesity challenges.
+                                Features include:
+                            </p>
+                            <ul class="project-features">
+                                <li>Personalized weight management tools</li>
+                                <li>Direct access to healthcare professionals</li>
+                                <li>Educational resources</li>
+                                <li>Supportive community features</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://6e5235ca-7f60-4d96-902c-a200bb64438e.filesusr.com/ugd/4a90cd_7dc6dd6ee4ec40cca04b536e805e9ef8.pdf" class="btn btn-outline">Team Slide Deck</a>
+                            <a href="https://youtu.be/ZtZ1_mx4rtk" class="btn btn-outline">Team Presentation</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Service Guru</h3>
+                            <span class="project-role">FrontEnd Developer</span>
+                        </div>
+                        
+                        <div class="project-content">
+                            <p>
+                                ServiceGuru is a platform aimed at linking users with local service providers based on their location, 
+                                helping users find trusted services nearby
+                            </p>
+                            <ul class="project-features">
+                                <li>
+                                    Service Provider Registration: Service providers can sign up and create a profile 
+                                    to list their services
+                                </li>
+                                <li>
+                                    Search Functionality: Users can search for service providers based on the Local Government Area 
+                                    (LGA) of a state and service type.
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-links">
+                            <a href="https://docs.google.com/presentation/d/1Q5VpVt6onHNFIC0zsYSeNct3ayk6j6i4SbJ7IKZFdo0/edit#slide=id.g30c599f22f8_0_63" class="btn btn-outline">Team Slide Deck</a>
+                            <a href="https://github.com/Marvydee/serviceguru" class="btn btn-outline">Github Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form id="contact-form" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Odinaka Franklin Akamere. All Rights Reserved.</p>
+    </footer>
+
+    <script src="/public/js/script.js" defer></script>
+</body>
+</html>
