@@ -22,7 +22,7 @@ This website showcases my skills, projects, and background as a **Frontend Softw
 ---
 
 ## 📂 Folder Structure
-portfolio-challenge/
+```portfolio-challenge/
 │── index.html          # Main HTML file
 │── README.md           # Project documentation
 ├── css/
@@ -30,12 +30,12 @@ portfolio-challenge/
 ├── js/
 │   └── script.js       # JavaScript for interactivity
 ├── docs/               # Documents folder
-│   ├── my_cv.pdf       # CV
+│   ├── my_cv.pdf       # My CV
 │   └── ShedKGs-DECK.pdf # Presentation deck
 └── images/             # Images folder
     ├── profile.jpg     # Profile picture
     └── ShedKGs.jpg     # Other images
-
+```
 
 ---
 
