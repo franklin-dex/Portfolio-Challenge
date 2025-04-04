@@ -48,16 +48,15 @@ This website showcases my skills, projects, and background as a **Frontend Softw
 ---
 
 ## 📜 Sections Included
-✅ **About Me** – A short bio about my background and passion.  
-✅ **Projects** – Showcases my best work with descriptions and links.  
+✅ **About** – A short bio about my background and passion.  
 ✅ **Skills** – Highlights my programming languages and tools.  
-✅ **Education** – Details my academic background.  
-✅ **Contact Form** – Allows visitors to reach out to me.  
+✅ **Projects** – Showcases my best work with descriptions and links.  
+✅ **Contact** – Allows visitors to reach out to me.  
 
 ---
 
 ## 📩 Contact
-💻 **Portfolio**: [Your Portfolio URL](https://franklin-akamere.netlify.app/)  
+💻 **Portfolio**: [Portfolio URL](https://franklin-akamere.netlify.app/)  
 📧 **Email**: [connecting.frank@gmail.com](mailto:connecting.frank@gmail.com)  
 🐙 **GitHub**: [github.com/franklin-dex](https://github.com/franklin-dex)  
 🔗 **LinkedIn**: [linkedin.com/in/franklin-akamere](https://linkedin.com/in/franklin-akamere)  
