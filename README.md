@@ -16,19 +16,25 @@ This website showcases my skills, projects, and background as a **Frontend Softw
 ---
 
 ## 📸 Preview
-> *Insert a screenshot or live demo link here*
 
-🔗 **Live Demo:** [View Portfolio](#) *(Replace with your GitHub Pages link)*
+🔗 **Live Demo:** [View Portfolio](https://franklin-akamere.netlify.app/) 
 
 ---
 
 ## 📂 Folder Structure
-/portfolio
-│── index.html # Main HTML file
-│── style.css # Stylesheet for UI design
-│── script.js # JavaScript for interactivity
-│── assets/ # Images, CV, and other resources
-│── README.md # Project documentation
+portfolio-challenge/
+│── index.html          # Main HTML file
+│── README.md           # Project documentation
+├── css/
+│   └── style.css       # Stylesheet for UI design
+├── js/
+│   └── script.js       # JavaScript for interactivity
+├── docs/               # Documents folder
+│   ├── my_cv.pdf       # CV
+│   └── ShedKGs-DECK.pdf # Presentation deck
+└── images/             # Images folder
+    ├── profile.jpg     # Profile picture
+    └── ShedKGs.jpg     # Other images
 
 
 ---
@@ -36,7 +42,8 @@ This website showcases my skills, projects, and background as a **Frontend Softw
 ## 🛠️ Technologies Used
 - **HTML5** - Structuring the web page  
 - **CSS3** - Styling and responsive design  
-- **JavaScript** - Form validation and interactivity  
+- **JavaScript** - Form validation and interactivity
+- **Netlify** - Deployed my site using netlify 
 
 ---
 
@@ -50,14 +57,14 @@ This website showcases my skills, projects, and background as a **Frontend Softw
 ---
 
 ## 📩 Contact
-💻 **Portfolio**: [Your Portfolio URL](#)  
-📧 **Email**: [your.email@example.com](mailto:your.email@example.com)  
-🐙 **GitHub**: [github.com/yourusername](https://github.com/yourusername)  
-🔗 **LinkedIn**: [linkedin.com/in/yourname](https://linkedin.com/in/yourname)  
+💻 **Portfolio**: [Your Portfolio URL](https://franklin-akamere.netlify.app/)  
+📧 **Email**: [connecting.frank@gmail.com](mailto:connecting.frank@gmail.com)  
+🐙 **GitHub**: [github.com/franklin-dex](https://github.com/franklin-dex)  
+🔗 **LinkedIn**: [linkedin.com/in/franklin-akamere](https://linkedin.com/in/franklin-akamere)  
 
 ---
 
 ## 🚀 Installation & Setup
 1. **Clone this repository:**  
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/franklin-dex/Portfolio-Challenge
