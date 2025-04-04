@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio
 
-Hello, my name is **Odinaka Franklin Akamere**
+Hello, my name is **Odinaka Franklin Akamere**,
 Welcome to my **Personal Portfolio**!
 This website showcases my skills, projects, and background as a **Frontend Software Engineer**.
 
